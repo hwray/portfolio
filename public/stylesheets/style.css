@@ -107,6 +107,22 @@ body {
   border-bottom: 1px solid #cccccc;
 }
 
+.about-main {
+  font-family: 'Cardo';
+  font-size: 22px;
+  text-align: left;
+  padding-left: 80px;
+  padding-top: 30px;
+}
+
+.about-main-first {
+  font-family: 'Cardo';
+  font-size: 22px;
+  text-align: left;
+  padding-left: 80px;
+  padding-top: 50px;
+}
+
 .about-icon-extra {
   text-align: center;
   padding-top: 40px; 
