@@ -1,7 +1,8 @@
 body {
   padding-top: 40px;
   padding-left: 30px;
-  background-color: #f7f7f7 !important;
+  background-color: #fdf6ee !important;
+  background-image: '../images/textured_paper.png' !important;
 }
 
 #sidebar {
@@ -31,20 +32,21 @@ body {
 }
 
 .sidebar-icon-left {
-  padding-right: 15px;
+  padding-right: 20px;
 }
 
 .sidebar-icon {
-  padding-left: 15px;
+  padding-left: 20px;
   padding-right: 3px;
 }
 
 .sidebar-icon-right {
-  padding-left: 15px;
+  padding-left: 20px;
 }
 
 .sidebar-nav {
   font-family: 'Abril Fatface';
+  font-size: 30px;
   color: #000000;
 }
 
@@ -105,14 +107,33 @@ body {
   border-bottom: 1px solid #cccccc;
 }
 
-.about-right {
+.about-icon-extra {
   text-align: center;
-  padding-top: 50px; 
+  padding-top: 40px; 
+}
+
+.about-icon {
+  text-align: center;
+  padding-top: 30px;
 }
 
 .about-icon-link {
   font-family: 'Cardo';
   font-size: 20px;
+  vertical-align: middle;
+  text-align: center;
+  padding-left: 10px;
+  padding-top: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.about-icon-link:hover, 
+.about-icon-link:visited, 
+.about-icon-link:active,
+.about-icon-link:focus {
+  text-decoration: none;
+  color: #000000;
 }
 
 .circular-about-me {

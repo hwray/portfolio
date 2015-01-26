@@ -64,6 +64,7 @@ about_button.onclick = function(e) {
   .animate({
     opacity: 0
   }, {queue: false, duration: 300, complete: function() {
+    main_container.style.marginTop = "-200px"
     main_container.innerHTML = ""; 
     main_container.innerHTML = '<div class="container-fluid"><div class="row row-eq-height"><div class="col-md-8"><h1 id="about-title">Developer &amp; Designer <br> of <br> Digital   <img src="images/emoji.png" alt="Joy" style="padding-left:10px;"> </h1></div><div class="col-md-4"><div class="circular-about-me"></div></div></div><div class="row"><div class="col-md-8"></div><div class="col-md-4 about-right"><a href="files/Harrison_Wray_Resume.pdf" target="_blank"><img src="images/resume.png"></a></div></div><div class="row"><div class="col-md-8"></div><div class="col-md-4 about-right"><a href="https://www.linkedin.com/in/hawray/" target="_blank"><img src="images/linkedin2.png"></a></div></div><div class="row"><div class="col-md-8"></div><div class="col-md-4 about-right"><img src="images/github.png"></div></div></div>';
     $("#main-container").animate({
@@ -131,6 +132,7 @@ dais_button.onclick = function(e) {
   .animate({
     opacity: 0
   }, {queue: false, duration: 300, complete: function() {
+    main_container.style.marginTop = "200px"
     main_container.innerHTML = ""; 
     main_container.innerHTML += "<div class='container-fluid'>"
                               + "<div class='row'>"
