@@ -1,0 +1,54 @@
+extends layout
+
+block content
+  div.container-fluid
+    div.row  
+      div.col-md-2#sidebar
+        div#progress-outer
+          <div id="progress-inner" data-progress="10%"><div></div></div>
+        div.sidebar-title-container
+          h1#sidebar-title Harrison <br /> Wray
+        div#about-nav
+          h3.sidebar-nav 
+            a#about-button.sidebar-link(href="/") <img class='progress-checkbox' src='images/checked.png'> About   
+        div#projects-nav
+          h3.sidebar-nav 
+            a.sidebar-link(href="/projects") <img id='projects-checkbox' class='progress-checkbox' src='images/unchecked.png'> Projects
+          div#sidebar-projects-sub-container
+            p 
+              a#dais-button.sidebar-link(href="/projects/dais") <img id='dais-checkbox' class='progress-checkbox' src='images/unchecked-small.png'> Dais
+            p 
+              a#discoveroute-button.sidebar-link(href="/projects/discoveroute") <img id='discoveroute-checkbox' class='progress-checkbox' src='images/unchecked-small.png'> Discoveroute
+            p 
+              a#gesturemath-button.sidebar-link(href="/projects/gesturemath") <img id='gesturemath-checkbox' class='progress-checkbox' src='images/unchecked-small.png'> GestureMath
+            p 
+              a#narrative-button.sidebar-link(href="/projects/narrative") <img id='narrative-checkbox' class='progress-checkbox' src='images/unchecked-small.png'> Narrative
+            p 
+              a#tutti-button.sidebar-link(href="/projects/tutti") <img id='tutti-checkbox' class='progress-checkbox' src='images/unchecked-small.png'> Tutti
+            p 
+              a#phonemone-button.sidebar-link(href="/projects/phonemone") <img id='phonemone-checkbox' class='progress-checkbox' src='images/unchecked-small.png'> Phonemone
+        div#experience-nav
+          h3.sidebar-nav 
+            <img class='progress-checkbox' src='images/unchecked.png'>  Experience
+      div.col-md-9#main-container
+        div.container-fluid
+          div.row.row-eq-height
+            div.col-md-8
+              h1#about-title Developer & Designer <br /> of <br /> Digital   <img src='images/emoji.png' alt='Joy' style="padding-left:10px;"> 
+            div.col-md-4
+              div.circular-about-me
+          div.row
+            div.col-md-8
+            div.col-md-4.about-right
+              a(href='files/Harrison_Wray_Resume.pdf' target='_blank')
+                img(src='images/resume.png')
+          div.row
+            div.col-md-8
+            div.col-md-4.about-right
+              a(href='https://www.linkedin.com/in/hawray/' target='_blank')
+                img(src='images/linkedin2.png')
+          div.row
+            div.col-md-8
+            div.col-md-4.about-right
+              img(src='images/github.png')
+  script(src='/javascripts/nav.js')

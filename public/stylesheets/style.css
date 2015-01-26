@@ -1,0 +1,178 @@
+body {
+  padding-top: 40px;
+  padding-left: 30px;
+  background-color: #f7f7f7 !important;
+}
+
+#sidebar {
+  border-right: 1px solid black;
+  width: 350px;
+  position: fixed;
+  min-width: 300px;
+  height: 90vh;
+  min-height: 700px;
+}
+
+#sidebar-title {
+  font-family: 'Abril Fatface';
+  font-size: 60px; 
+  line-height: 80px;
+  letter-spacing: -1px;
+}
+
+.sidebar-title-container {
+  padding-bottom: 5vh;
+}
+
+.sidebar-nav {
+  font-family: 'Abril Fatface';
+  color: #000000;
+}
+
+#about-nav {
+  position: absolute;
+  top: 250px;
+}
+
+#projects-nav {
+  position: absolute;
+  top: 425px;
+}
+
+#experience-nav {
+  position: absolute;
+  top: 600px;
+}
+
+#sidebar-projects-sub-container {
+  display: none;
+  opacity: 0;
+  font-family: 'Abril Fatface';
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-left: 30px;
+}
+
+.sidebar-link {
+  color: #000000;
+}
+
+.sidebar-link:hover, 
+.sidebar-link:visited, 
+.sidebar-link:active,
+.sidebar-link:focus {
+  color: #000000;
+}
+
+#main-container {
+  margin-top: -20px;
+  padding-top: 13px; 
+  margin-left: 350px;
+  opacity: 0;
+}
+
+#about-title {
+  font-family: 'Abril Fatface';
+  text-align: center;
+  vertical-align: middle;
+  font-size: 50px;
+  line-height: 80px;
+  padding-left: 3vw;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+
+.about-right {
+  text-align: center;
+  padding-top: 50px; 
+}
+
+.circular-about-me {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url(../images/about_me.jpg) no-repeat;
+  -webkit-box-shadow: 10px 7px 20px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 7px 20px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 7px 20px 0px rgba(0,0,0,0.75);
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.project-title {
+  font-family: 'Abril Fatface';
+  text-align: left;
+  font-size: 50px;
+  padding-left: 2vw;
+  padding-top: 80px;
+}
+
+.project-subtitle {
+  font-family: 'Abril Fatface';
+  text-align: left;
+  font-size: 30px;
+  padding-left: 5vw;
+  margin-right: 20px;
+}
+
+.project-text {
+  font-family: 'Cardo';
+  font-size: 20px;
+  vertical-align: middle;
+  padding-top: 20px !important;
+  padding-left: 50px !important;
+  padding-right: 100px !important;
+}
+
+#progress-outer {
+    width: 20px;
+    height: 90vh;
+    min-height: 700px;
+    margin-right: -18px;
+    border: 2px solid #eee;
+    overflow: hidden;
+    float: right;
+    position: relative;
+    
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#progress-inner, #progress-inner div {
+    width: 100%;
+    overflow: hidden;
+    left: -2px;
+    position: absolute;
+}
+
+#progress-inner {
+    border: 2px solid #2ecc71;
+    border-top-width: 0;
+    background-color: #2ecc71;
+    
+    bottom: 0;
+    height: 0%;
+}
+
+#progress-inner div {
+    border: 2px solid #2ecc71;
+    border-bottom-width: 0;
+    background-color: #2ecc71;
+    
+    top: 0;
+    width: 100%;
+    height: 5px;
+}
+
+.progress-checkbox {
+  padding-right: 30px;
+}
