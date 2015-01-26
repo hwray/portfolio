@@ -138,7 +138,7 @@ dais_button.onclick = function(e) {
                               + "<h2 class='project-title'>Dais:</h2>"
                               + "<h3 class='project-subtitle'>Realtime presentation feedback and analytics for Google Glass.</h3><br /><br /><br />"
                               + "<div style='text-align:center;'>"
-                              + "<img src='images/github-large.png' alt='Github'>"
+                              + "<a href='https://github.com/hwray/dais' target='_blank'><img src='images/github-large.png' alt='Github'></a>"
                               + "</div>"
                               + "<br /><br /><br />"
                               + "<div class='project-text'>"

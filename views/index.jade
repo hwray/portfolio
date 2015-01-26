@@ -8,25 +8,32 @@ block content
           <div id="progress-inner" data-progress="10%"><div></div></div>
         div.sidebar-title-container
           h1#sidebar-title Harrison <br /> Wray
+        div#sidebar-icon-container
+          a(href='files/Harrison_Wray_Resume.pdf' target='_blank')
+            img(src='images/resume2.png' class='sidebar-icon-left')
+          a(href='https://www.linkedin.com/in/hawray/' target='_blank')
+            img(src='images/linkedin2.png' class='sidebar-icon')
+          a(href='https://github.com/hwray' target='_blank')
+            img(src='images/github.png' class='sidebar-icon-right')
         div#about-nav
           h3.sidebar-nav 
             a#about-button.sidebar-link(href="/") <img class='progress-checkbox' src='images/checked.png'> About   
         div#projects-nav
           h3.sidebar-nav 
-            a.sidebar-link(href="/projects") <img id='projects-checkbox' class='progress-checkbox' src='images/unchecked.png'> Projects
+            a.sidebar-link(href="/projects") <img id='projects-checkbox' class='progress-checkbox' src='images/unchecked.png'>Projects
           div#sidebar-projects-sub-container
             p 
-              a#dais-button.sidebar-link(href="/projects/dais") <img id='dais-checkbox' class='progress-checkbox' src='images/unchecked-small.png'> Dais
+              a#dais-button.sidebar-link.sublink(href="/projects/dais") <img id='dais-checkbox' class='progress-checkbox' src='images/unchecked-small.png'>Dais
             p 
-              a#discoveroute-button.sidebar-link(href="/projects/discoveroute") <img id='discoveroute-checkbox' class='progress-checkbox' src='images/unchecked-small.png'> Discoveroute
+              a#discoveroute-button.sidebar-link.sublink(href="/projects/discoveroute") <img id='discoveroute-checkbox' class='progress-checkbox' src='images/unchecked-small.png'>Discoveroute
             p 
-              a#gesturemath-button.sidebar-link(href="/projects/gesturemath") <img id='gesturemath-checkbox' class='progress-checkbox' src='images/unchecked-small.png'> GestureMath
+              a#gesturemath-button.sidebar-link.sublink(href="/projects/gesturemath") <img id='gesturemath-checkbox' class='progress-checkbox' src='images/unchecked-small.png'>GestureMath
             p 
-              a#narrative-button.sidebar-link(href="/projects/narrative") <img id='narrative-checkbox' class='progress-checkbox' src='images/unchecked-small.png'> Narrative
+              a#narrative-button.sidebar-link.sublink(href="/projects/narrative") <img id='narrative-checkbox' class='progress-checkbox' src='images/unchecked-small.png'>Narrative
             p 
-              a#tutti-button.sidebar-link(href="/projects/tutti") <img id='tutti-checkbox' class='progress-checkbox' src='images/unchecked-small.png'> Tutti
+              a#tutti-button.sidebar-link.sublink(href="/projects/tutti") <img id='tutti-checkbox' class='progress-checkbox' src='images/unchecked-small.png'>Tutti
             p 
-              a#phonemone-button.sidebar-link(href="/projects/phonemone") <img id='phonemone-checkbox' class='progress-checkbox' src='images/unchecked-small.png'> Phonemone
+              a#phonemone-button.sidebar-link.sublink(href="/projects/phonemone") <img id='phonemone-checkbox' class='progress-checkbox' src='images/unchecked-small.png'>Phonemone
         div#experience-nav
           h3.sidebar-nav 
             <img class='progress-checkbox' src='images/unchecked.png'>  Experience
@@ -39,9 +46,10 @@ block content
               div.circular-about-me
           div.row
             div.col-md-8
+              <img src='images/left_arrow2.png' alt="Left Arrow"> <img src='images/emoji_up.png' alt="Up Emoji"> <img src='images/emoji_gift.png' alt="Present Emoji"> <img src='images/emoji_confetti.png' alt="Confetti Emoji">
             div.col-md-4.about-right
-              a(href='files/Harrison_Wray_Resume.pdf' target='_blank')
-                img(src='images/resume.png')
+              a(href='http://takemeback.to/29-November-1991#.VMZtpErF9At' target='_blank' class='about-icon-link')
+                <img src='images/clock.png'>
           div.row
             div.col-md-8
             div.col-md-4.about-right
@@ -50,5 +58,6 @@ block content
           div.row
             div.col-md-8
             div.col-md-4.about-right
-              img(src='images/github.png')
+              a(href='https://github.com/hwray' target='_blank')
+                img(src='images/github.png')
   script(src='/javascripts/nav.js')

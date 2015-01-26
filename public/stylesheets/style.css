@@ -21,7 +21,26 @@ body {
 }
 
 .sidebar-title-container {
-  padding-bottom: 5vh;
+  padding-bottom: 10px;
+}
+
+#sidebar-icon-container {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.sidebar-icon-left {
+  padding-right: 15px;
+}
+
+.sidebar-icon {
+  padding-left: 15px;
+  padding-right: 3px;
+}
+
+.sidebar-icon-right {
+  padding-left: 15px;
 }
 
 .sidebar-nav {
@@ -31,30 +50,34 @@ body {
 
 #about-nav {
   position: absolute;
-  top: 250px;
+  top: 325px;
 }
 
 #projects-nav {
   position: absolute;
-  top: 425px;
+  top: 475px;
 }
 
 #experience-nav {
   position: absolute;
-  top: 600px;
+  top: 625px;
 }
 
 #sidebar-projects-sub-container {
   display: none;
   opacity: 0;
   font-family: 'Abril Fatface';
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 1px;
   margin-left: 30px;
 }
 
 .sidebar-link {
   color: #000000;
+}
+
+.sublink {
+  font-family: 'Cardo';
 }
 
 .sidebar-link:hover, 
@@ -72,19 +95,24 @@ body {
 }
 
 #about-title {
-  font-family: 'Abril Fatface';
+  font-family: 'Cardo';
   text-align: center;
   vertical-align: middle;
   font-size: 50px;
   line-height: 80px;
   padding-left: 3vw;
   padding-bottom: 30px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #cccccc;
 }
 
 .about-right {
   text-align: center;
   padding-top: 50px; 
+}
+
+.about-icon-link {
+  font-family: 'Cardo';
+  font-size: 20px;
 }
 
 .circular-about-me {
